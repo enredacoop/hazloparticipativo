@@ -187,7 +187,7 @@ body{
 	color:#fff;
 	text-decoration:none;
 	font-size:13px;
-	
+
 }
 .menu li a:hover{
 	border-bottom:1px solid #fff;
@@ -254,7 +254,7 @@ body{
 	text-decoration:none!important;
 	display:inline-block;
 	background:#2bd6ee;
-	
+
 	-webkit-box-shadow: 0px 15px 32px 1px rgba(0,0,0,0.23);
 	-moz-box-shadow: 0px 15px 32px 1px rgba(0,0,0,0.23);
 	box-shadow: 0px 15px 32px 1px rgba(0,0,0,0.23);
@@ -282,11 +282,11 @@ body{
       top: 0;
       width: 100%;
       z-index: 9999 !important;
-      margin: 0 auto;   
+      margin: 0 auto;
       left: 0;
       right: 0;
       background:rgba(219, 80, 36, 0.8);
-      padding: 15px 0;   
+      padding: 15px 0;
   }
 
   .affix + .container-fluid {
@@ -347,15 +347,15 @@ box-shadow: 0px 8px 51px -4px rgba(144,155,165,0.4);
 	border:1px solid #e2e7ec;
 	color:#a1a1a1;
 	font-size:13px;
-	
+
 }
 
 .text1{
-	
+
 }
 
 .text2{
-	
+
 }
 
 .grop{
@@ -580,7 +580,7 @@ box-shadow: 0px 0px 51px 7px rgba(144,155,165,0.24);
 
 /*-----------------------------------------------------------------------------------
 
-video 
+video
 
 -----------------------------------------------------------------------------------*/
 
@@ -622,7 +622,7 @@ Our strong numbers
 
 .section5{
 	padding:100px 0;
-	
+
 }
 
 
@@ -664,7 +664,7 @@ Dashboard
 .section6{
 	padding:90px 0;
 	overflow:hidden;
-	
+
 }
 
 .ttl4 span{
@@ -701,7 +701,7 @@ Dashboard
 	font-style:13px;
 	text-decoration:none!important;
 	margin-top:40px;
-	
+
 	-webkit-box-shadow: 0px 8px 51px -4px rgba(144,155,165,0.73);
 -moz-box-shadow: 0px 8px 51px -4px rgba(144,155,165,0.73);
 box-shadow: 0px 8px 51px -4px rgba(144,155,165,0.73);
@@ -726,7 +726,7 @@ screens - tab style gallery
 
 .tab-screen-image {
 	width:100%;
-	
+
 	-webkit-box-shadow: 0px -5px 62px -7px rgba(0,0,0,0.34);
 -moz-box-shadow: 0px -5px 62px -7px rgba(0,0,0,0.34);
 box-shadow: 0px -5px 62px -7px rgba(0,0,0,0.34);
@@ -861,10 +861,12 @@ testimonials
 	padding:90px 0 90px 0;
 }
 .section8 .row{
-	margin:0;
+	margin: 0;
 }
 .slick-list{
 	padding:0!important;
+	height: 400px;
+	vertical-align: middle;
 }
 .slick-arrow{
 	display:none!important;
@@ -882,7 +884,7 @@ testimonials
 	opacity:0.4;
 }
 .slick-slide{
-	margin-bottom:40px;
+	margin-bottom:-200px;
 }
 .slick-center{
 	opacity:1!important;
@@ -911,7 +913,7 @@ pricing
 	float:left;
 	width:100%;
 	height:470px;
-	
+
 }
 
 .pricing-inner-container {
@@ -929,7 +931,7 @@ pricing
 .plan{
 	background:#fff;
 	border-radius:4px;
-	
+
 	-webkit-box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 -moz-box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
@@ -1075,7 +1077,7 @@ team
 	background:#fff;
 	text-align:center;
 	position:relative;
-	
+
 	-webkit-box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 -moz-box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
@@ -1084,7 +1086,7 @@ box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 .team-photo{
 	max-height:300px;
 	overflow:hidden;
-	
+
 }
 
 .team-photo img{
@@ -1101,7 +1103,7 @@ box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 }
 .team-box .team-ttl p{
 	font-weight:600;
-	font-size:15px;	
+	font-size:15px;
 	margin-bottom:0;
 }
 .team-con{
@@ -1155,13 +1157,13 @@ Lest start yor project now
 
 .section11{
 	padding:100px 0;
-	
+
 	/* The image used */
   background: #1080f2 url("../images/parallaxbg.jpg") no-repeat;
-  
+
   /* Set a specific height */
-    height: auto; 
-	
+    height: auto;
+
 	/* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -1186,7 +1188,7 @@ Lest start yor project now
 	background:#2bd6ee;
 	padding:10px 40px;
 	line-height:25px;
-	
+
 	-webkit-box-shadow: 0px 15px 32px 1px rgba(0,0,0,0.23);
 -moz-box-shadow: 0px 15px 32px 1px rgba(0,0,0,0.23);
 box-shadow: 0px 15px 32px 1px rgba(0,0,0,0.23);
@@ -1215,7 +1217,7 @@ Blog
 	background:#fff;
 	text-align:center;
 	position:relative;
-	
+
 	-webkit-box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 -moz-box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
@@ -1224,7 +1226,7 @@ box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 .h-blog-box-photo{
 	max-height:300px;
 	overflow:hidden;
-	
+
 }
 
 .h-blog-box-photo img{
@@ -1354,7 +1356,7 @@ freetrial
 .form button:hover{
 	background:#2bd6ee;
 	transition:all ease .5s;
-	
+
 }
 
 
@@ -1387,7 +1389,7 @@ Footer Social
 	width:100%;
 	background:#FFFFFF;
 	min-height:275px;
-	
+
 	-webkit-box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 -moz-box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
@@ -1433,7 +1435,7 @@ box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 	float:left;
 	margin-left:40px;
 	margin-top:-30px;
-	
+
 	-webkit-box-shadow: 0px 6px 18px -3px rgba(144,155,165,0.31);
 -moz-box-shadow: 0px 6px 18px -3px rgba(144,155,165,0.31);
 box-shadow: 0px 6px 18px -3px rgba(144,155,165,0.31);
@@ -1451,7 +1453,7 @@ box-shadow: 0px 6px 18px -3px rgba(144,155,165,0.31);
 	background:#db5024;
 	color:#fff;
 	transition:all ease .5s;
-	
+
 }
 
 .fool-box a i:hover,.foot-social a i:hover{
@@ -1859,7 +1861,7 @@ BLOG CSS
 	padding:35px;
 }
 
-.blog-box-side-bar h2 { 
+.blog-box-side-bar h2 {
 	float:left;
 	width:100%;
 	border-bottom:#e0e0e0 solid 1px;
@@ -1873,7 +1875,7 @@ BLOG CSS
 	padding:0 0 30px 0;
 }
 
-.side-bar-logo { 
+.side-bar-logo {
 	float:left;
 	width:100%;
 	border:#e0e0e0 solid 1px;
@@ -2054,7 +2056,7 @@ BLOG CSS
 	color: #686868;
 	font-weight: 400;
 	height: 43px;
-	padding: 0 48px 0 9px;	
+	padding: 0 48px 0 9px;
 }
 
 .bsb-subscribe-input input[type="submit"] {
@@ -2355,13 +2357,13 @@ BLOG CSS
 	border-radius:40px;
 	margin-top:20px;
 	padding:15px 50px;
-	
+
 }
 
 .comment-form button:hover{
 	background:#47a032;
 	transition:all ease .5s;
-	
+
 }
 
 
@@ -2397,7 +2399,7 @@ Responsive CSS for all sections
 	.tg {
 	  padding-bottom: 20px;
 	}
-	
+
 	.header h1 {
 	 padding-top: 35px;
 	}
@@ -2406,12 +2408,12 @@ Responsive CSS for all sections
 	}
 	.f-img img{
 
-		
+
 	}
 	.f-img img {
-	 
+
 	}
-	
+
 	.img3 {
     width:1000px;
     height: auto;
@@ -2419,36 +2421,36 @@ Responsive CSS for all sections
     top: 0;
     right: -500px;
 	}
-	
-	
+
+
 	.two-colom-image-right img {
 
 	}
-	
+
 	.two-colom-image img {
 		margin-top:40px;
 	}
-	
+
 	.section3 {
 		padding:100px 0;
 	}
-	
+
 	.content-area-second {
 		padding:0 0 60px 0;
 	}
-	
+
 
 @media screen and (max-width: 1199px) {
   	.foot-social {
 		float:left;
 		margin-top:20px;
 	}
-	
+
 	.last-footer {
 		margin-top:20px;
 	}
- 
-}	
+
+}
 
 @media (max-width:1023px){
 	#menu-icon{
@@ -2489,10 +2491,10 @@ Responsive CSS for all sections
 	#header .col-md-4{
 	width:100%;
 	}
-	
-	
+
+
 }
-	
+
 @media (max-width:980px){
 	.con1 h2,.ttl2 h2,.ttl h2,.search-sec h2,.header h1,.ttl3 h2,.ttl4 h2,.ttl5 h2,.ttl3 h2,.ttl5 h2{
 		font-size:28px;
@@ -2501,12 +2503,12 @@ Responsive CSS for all sections
 	.tgcon {
   	width: 80%;
 	}
-	
+
 	.h-blog-box {
 		margin-bottom:50px;
 	}
-	
-	
+
+
 }
 
 @media screen and (max-width: 991px) {
@@ -2528,14 +2530,14 @@ Responsive CSS for all sections
 	.bx-wrapper .bx-prev{
 		left:0!important;
 	}
-	
+
 	.team-photo {
 		height:auto;
 		max-height:inherit;
 	}
-	
 
-	
+
+
 }
 
 
@@ -2560,7 +2562,7 @@ Responsive CSS for all sections
 	}
 	.grop .form-control, .grop .btn {
 	  width: 100%;
-	  
+
 	  -webkit-box-shadow: 0px 8px 51px -4px rgba(144,155,165,0.4);
 	-moz-box-shadow: 0px 8px 51px -4px rgba(144,155,165,0.4);
 	box-shadow: 0px 8px 51px -4px rgba(144,155,165,0.4);
@@ -2578,25 +2580,25 @@ Responsive CSS for all sections
 		margin-top:0px;
 		margin-bottom:0px;
 	}
-	
+
 	.btn2{
 		margin-bottom:10px;
 	}
-	
+
 	.blog-post-info{
 	display:block;
 	}
 
-	
+
 	.blog-post-info ul{
 	display:block;
 	justify-content:space-between;
 	}
-	
+
 	.blog-post-content-area {
 	padding:30px;
 	}
-	
+
 		.screen-section {
 		padding-bottom:100px;
 	}
@@ -2613,11 +2615,11 @@ Responsive CSS for all sections
 	  font-size: 24px;
 	  line-height: 28px;
 	}
-	
+
 	.blog-post-content-area {
 	padding:30px;
 }
-	
+
 }
 
 
@@ -2631,14 +2633,14 @@ Responsive CSS for all sections
 	  margin: 0 auto;
 	  overflow: hidden;
 	  position: relative;
-	
+
 	}
 	.dg-wrapper a img {
 	  display: block;
 	  width: 100%;
 	}
 	.dg-wrapper a{
-		
+
 	}
 	.dg-wrapper{
 	height:500px;
@@ -2646,7 +2648,7 @@ Responsive CSS for all sections
 .dg-container nav {
   bottom: 25px;
 }
-	
+
 }
 @media (max-width:1250px){
 .dg-wrapper {
@@ -2657,7 +2659,7 @@ Responsive CSS for all sections
 }
 
 }
-	
+
 @media (max-width:1199px){
 	.dg-wrapper {
   height: 660px;
@@ -2745,7 +2747,7 @@ Responsive CSS for all sections
 
 
 
-@media screen and (min-device-width:768px) and (max-device-width:989px) { 
+@media screen and (min-device-width:768px) and (max-device-width:989px) {
     .f-img img{
 		width:100%;
 	}
@@ -2753,6 +2755,3 @@ Responsive CSS for all sections
 		width:100%;
 	}
 }
-
-
-
