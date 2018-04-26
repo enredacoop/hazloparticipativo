@@ -865,7 +865,7 @@ testimonials
 }
 .slick-list{
 	padding:0!important;
-	height: 400px;
+	height: 410px;
 	vertical-align: middle;
 }
 .slick-arrow{
@@ -884,7 +884,7 @@ testimonials
 	opacity:0.4;
 }
 .slick-slide{
-	margin-bottom:-170px;
+	margin-bottom:-160px;
 }
 .slick-center{
 	opacity:1!important;
