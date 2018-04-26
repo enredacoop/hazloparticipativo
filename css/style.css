@@ -858,7 +858,7 @@ testimonials
 -----------------------------------------------------------------------------------*/
 
 .section8{
-	padding:90px 0 90px 0;
+	padding:0px 0 90px 0;
 }
 .section8 .row{
 	margin: 0;
@@ -884,7 +884,7 @@ testimonials
 	opacity:0.4;
 }
 .slick-slide{
-	margin-bottom:-180px;
+	margin-bottom:-170px;
 }
 .slick-center{
 	opacity:1!important;
