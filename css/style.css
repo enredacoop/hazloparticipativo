@@ -328,10 +328,10 @@ h4.title {
       margin: 0 auto;
       left: 0;
       right: 0;
-      background:var(--primary); /* 219, 80, 36, 0.8 */
+      background:var(--secondary); /* 219, 80, 36, 0.8 */
       padding: 15px 0;
-      box-shadow: 0px 0px 13px rgba(0,0,0,.15);
-    	border-top: 4px solid var(--secondary);
+      box-shadow: 0px 0px 13px rgba(0,0,0,.33);
+    	border-top: 4px solid var(--primary);
   }
 
   .affix + .container-fluid {
@@ -603,6 +603,7 @@ box-shadow: 0px 0px 51px 7px rgba(144,155,165,0.24);
 
 .section-two-colom{
 	padding:0 0 80px 0;
+	background: whitesmoke;
 }
 
 .content-area-second{
@@ -917,7 +918,7 @@ testimonials
 
 .section8{
 	padding:0px 0 90px 0;
-	margin-top: 80px;
+	padding-top: 80px;
 }
 .section8 .row{
 	margin: 0;
@@ -1566,7 +1567,7 @@ box-shadow: 0px 6px 18px -3px rgba(144,155,165,0.31);
 }
 
 .last-footer{
-  background: #db5024;
+  background: var(--primary);
   float: left;
   width: 100%;
   padding: 50px 0 50px 0;
