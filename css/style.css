@@ -59,6 +59,11 @@
 .proyect-logo-maxi{
 	height: 100px;
 }
+	.proyect-logo-maxi.poletika {
+		height: 50px;
+		margin-top: 35px;
+	}
+
 
 .proyect-logo-mini{
 	height: 130px;
