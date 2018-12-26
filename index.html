@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,6 +22,8 @@
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />				<!-- Video Popup -->
     <link rel="stylesheet" href="css/animate.css">														<!-- Wow Animation CSS -->
 
+
+
 	<!--RESPONSIVE TAB -->
         <link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
 
@@ -43,12 +45,18 @@
              <div class="col-lg-9 col-md-9" id="menu">
                <div class="menu">
                   <ul>
-                    <li><a href="#header">Inicio</a></li>
-                    <li><a href="#consul">Consul</a></li>
+                    <li><a data-i18n="home" href="#header">Inicio</a></li>
+                    <li><a data-i18n="consul" href="#consul">Consul</a></li>
                     <li><a href="#participa">Participación</a></li>
                     <li><a href="#trabajos">Nuestros Trabajos</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                   </ul>
+
+                  <ul class="switch-locale">
+                    <li><a href="#" data-locale="en">English</a></li>
+                    <li><a href="#" data-locale="es">Español</a></li>
+                  </ul>
+
                </div>
              </div>
              	</div>
@@ -543,8 +551,11 @@
   <script src="js/retina.js"></script>                      										<!-- Retina js -->
 	<script src="js/retina.min.js"></script>                  										<!-- Retina js -->
 
-    <script>
+<script type="text/javascript">
+
 	$(document).ready(function(){
+
+    
 
 	//Screenshot in details slider ==============================================
 
@@ -668,7 +679,37 @@
     });
 
 
-</script>
+  </script>
+
+    <!-- Translations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cldrjs/0.5.0/cldr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.messagestore.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.fallbacks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.language.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.parser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.emitter.js"></script>
+
+    <script>
+      $.i18n.debug = true;
+      $.i18n( {
+        locale: 'es' // Locale is Hebrew
+      } );
+      
+      $.i18n().load({
+        en: 'i18n/en.js',
+        es: 'i18n/es.js'
+      } ).done(function() {
+        $.i18n().locale = 'es';
+        $('html').i18n();
+
+        $('.switch-locale').on('click', 'a', function(e) {
+          e.preventDefault();
+          $.i18n().locale = $(this).data('locale');
+          $('html').i18n();
+        });
+      });
+    </script>
 
 
   </body>

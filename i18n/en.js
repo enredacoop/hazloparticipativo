@@ -1,0 +1,4 @@
+{
+	"home": "Home",
+	"consul": "Consul"
+}
