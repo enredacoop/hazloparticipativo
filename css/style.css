@@ -201,13 +201,11 @@ h4.title {
  Header (section)
 
 -----------------------------------------------------------------------------------*/
-
 .menu li{
 	display:inline-block;
 	list-style:none;
 	padding:0 19px;
 }
-
 
 #menu-icon{
 	display:none;
@@ -225,6 +223,22 @@ h4.title {
 	font-size:13px;
 	padding: 10px;
   transition: all ease .3s;
+
+}
+
+.menu span li{
+	display:inline-block;
+	list-style:none;
+	padding:0 6px;
+}
+.menu span li a{
+	font-weight:500;
+	color:#fff;
+	text-decoration:none;
+	font-size:13px;
+	padding: 10px;
+ 	transition: all ease .3s;
+ 	border-bottom: 2px solid;
 
 }
 .menu li a:hover{
