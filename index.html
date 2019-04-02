@@ -686,16 +686,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.emitter.js"></script>
 
     <script>
-      $.i18n.debug = true;
+    // Select translation ==============================================
+      var language = 'es';
+      window.location.href.includes("citizenparticipation.") ? language = 'en' : "";
+
+      $.i18n.debug = false;
       $.i18n( {
-        locale: 'es' // Locale is Hebrew
+        locale: language // Locale is Hebrew
       } );
       
       $.i18n().load({
         en: 'i18n/en.js',
         es: 'i18n/es.js'
       } ).done(function() {
-        $.i18n().locale = 'es';
+        $.i18n().locale = language;
         $('html').i18n();
 
         $('.switch-locale').on('click', 'a', function(e) {
